@@ -7,6 +7,9 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "test": "react-scripts test",
     "build": "rm -rf dist && tsc --project tsconfigBuild.json",
