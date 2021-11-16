@@ -11,9 +11,10 @@
   },
   "scripts": {
     "test": "react-scripts test",
-    "build": "rm -rf dist && tsc --project tsconfigBuild.json",
+    "build": "rm -rf dist && tsc --project tsconfigBuild.json && npm run copyfiles",
     "prepare": "ts-patch install -s",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "copyfiles": "rsync -a src/ui-scss-compat/ dist/ui-scss-compat/ && rsync -a src/ui-tokens/ dist/ui-tokens/ && rsync -a src/fonts/ dist/fonts/"
   },
   "peerDependencies": {
     "react": "^17.0.2",
