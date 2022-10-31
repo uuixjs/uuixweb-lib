@@ -23,7 +23,6 @@
   },
   "include": [
     "src",
-    "stories"
   ],
   "exclude": [
     "src/**/*.test.tsx",

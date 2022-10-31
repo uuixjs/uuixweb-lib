@@ -1,7 +1,8 @@
 import { Options, Property } from "../types";
-import { snakeCase } from "lodash";
+
 import Color from "tinycolor2";
 import { hasCssKeywordValue } from "../utils";
+import snakeCase from "lodash/snakeCase";
 
 const isColorToken = (prop: Property) => {
   // If this is a color property or a theme color property and does not
