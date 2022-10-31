@@ -15,7 +15,7 @@
     "prepare": "ts-patch install -s",
     "prepublish": "npm run build",
     "copyfiles": "rsync -a src/ui-scss-compat/ dist/ui-scss-compat/ && rsync -a src/ui-tokens/ dist/ui-tokens/ && rsync -a src/fonts/ dist/fonts/",
-    "tokens": "cd src/ui-tokens && ts-node src/ui-tokens/build"
+    "tokens": "cd src/ui-tokens && ts-node build"
   },
   "peerDependencies": {
     "react": "^17.0.2",
