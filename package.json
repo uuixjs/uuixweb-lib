@@ -6,7 +6,6 @@
   "files": [
     "dist"
   ],
-  "type": "module",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
@@ -16,7 +15,7 @@
     "prepare": "ts-patch install -s",
     "prepublish": "npm run build",
     "copyfiles": "rsync -a src/ui-scss-compat/ dist/ui-scss-compat/ && rsync -a src/ui-tokens/ dist/ui-tokens/ && rsync -a src/fonts/ dist/fonts/",
-    "tokens": "node --experimental-specifier-resolution=node --loader ts-node/esm src/ui-tokens/build.ts"
+    "tokens": "cd src/ui-tokens && ts-node src/ui-tokens/build"
   },
   "peerDependencies": {
     "react": "^17.0.2",
