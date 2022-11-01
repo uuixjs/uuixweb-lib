@@ -196,8 +196,8 @@
         "normal": {
           "latin": {
             "url": {
-              "woff2": "lib/fonts/fonts/web/roobert/Roobert-Regular.woff2",
-              "woff": "lib/fonts/fonts/web/roobert/Roobert-Regular.woff"
+              "woff2": "./web/roobert/Roobert-Regular.woff2",
+              "woff": "./web/roobert/Roobert-Regular.woff"
             }
           }
         }
@@ -206,8 +206,8 @@
         "normal": {
           "latin": {
             "url": {
-              "woff2": "lib/fonts/fonts/web/roobert/Roobert-SemiBold.woff2",
-              "woff": "lib/fonts/fonts/web/roobert/Roobert-SemiBold.woff"
+              "woff2": "./web/roobert/Roobert-SemiBold.woff2",
+              "woff": "./web/roobert/Roobert-SemiBold.woff"
             }
           }
         }
@@ -216,8 +216,8 @@
         "normal": {
           "latin": {
             "url": {
-              "woff2": "lib/fonts/fonts/web/roobert/Roobert-Bold.woff2",
-              "woff": "lib/fonts/fonts/web/roobert/Roobert-Bold.woff"
+              "woff2": "./web/roobert/Roobert-Bold.woff2",
+              "woff": "./web/roobert/Roobert-Bold.woff"
             }
           }
         }

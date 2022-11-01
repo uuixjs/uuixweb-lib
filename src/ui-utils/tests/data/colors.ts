@@ -1,4 +1,4 @@
-import { RGBColor } from "lib/pure-color";
+import { RGBColor } from "../../../pure-color";
 
 // From: https://cloford.com/resources/colours/500col.htm
 export const TEST_COLORS: Array<RGBColor> = [

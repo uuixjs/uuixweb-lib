@@ -1,4 +1,4 @@
-import { StaticTokenMap } from "lib/ui-tokens";
+import { StaticTokenMap } from "../../../ui-tokens";
 // eslint-disable-next-line no-restricted-imports
 import { rem as toRem } from "polished";
 

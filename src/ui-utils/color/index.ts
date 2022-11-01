@@ -1,4 +1,4 @@
-import { RGBColor } from "lib/pure-color";
+import { RGBColor } from "../../pure-color";
 
 /**
  * If a string representing a hex color is provided,

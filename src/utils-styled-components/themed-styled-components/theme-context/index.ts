@@ -1,4 +1,4 @@
-import { StaticToken, Theme, ThemeToken } from "lib/ui-tokens";
+import { StaticToken, Theme, ThemeToken } from "../../../ui-tokens";
 import { prefersDarkMode, supportsCssVars } from "../../supports";
 import { useContext, useMemo } from "react";
 

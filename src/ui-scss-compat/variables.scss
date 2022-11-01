@@ -1,7 +1,7 @@
 // module path (no ~, that's SASS) with extension is necessary to ease usage
 // by consumers
-@import "lib/ui-tokens/scss/variables.scss";
-@import "lib/ui-tokens/scss/themes.scss";
+@import "../ui-tokens/scss/variables.scss";
+@import "../ui-tokens/scss/themes.scss";
 
 // Provides variables, mixins, and theme tokens.
 // This file should not output any css.
