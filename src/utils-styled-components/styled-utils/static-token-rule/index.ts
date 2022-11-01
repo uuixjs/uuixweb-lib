@@ -1,5 +1,5 @@
 import { InterpolationFunction, ThemeProps } from "styled-components";
-import { StaticToken, StaticTokenMap } from "lib/ui-tokens";
+import { StaticToken, StaticTokenMap } from "../../../ui-tokens";
 
 import { ThemeContextValue } from "../../themed-styled-components";
 

@@ -1,4 +1,4 @@
-import { DarkThemeMap, LightThemeMap } from "lib/ui-tokens";
+import { DarkThemeMap, LightThemeMap } from "../../../ui-tokens";
 
 import { ThemeContextValue } from "../../themed-styled-components";
 import { ThemeProps } from "styled-components";

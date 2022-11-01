@@ -1,9 +1,11 @@
-import { HSLColor, RGBColor, hsl2rgb, parse, rgb2hsl } from "lib/pure-color";
+import { HSLColor, RGBColor, hsl2rgb, parse, rgb2hsl } from "../../pure-color";
 import { accentColorGenerator, changeColor } from ".";
 import { contrast, luminance } from "../color";
 
-import { DynamicThemeMap } from "lib/ui-tokens";
+import { DynamicThemeMap } from "../../ui-tokens";
 import { TEST_COLORS } from "../tests/data/colors";
+;
+
 
 const LIGHT_ALT_2 = parse(
   DynamicThemeMap.light["color-background-alt-2"],

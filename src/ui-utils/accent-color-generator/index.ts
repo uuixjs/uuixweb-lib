@@ -1,4 +1,4 @@
-import { HSLColor, RGBColor, hsl2rgb, rgb2hsl } from "lib/pure-color";
+import { HSLColor, RGBColor, hsl2rgb, rgb2hsl } from "../../pure-color";
 import {
   colorIsDark,
   contrast,

@@ -1,7 +1,7 @@
 import { FC, useMemo } from "react";
 import { ThemeContextValue, useTheme } from "../theme-context";
 
-import { Theme } from "lib/ui-tokens";
+import { Theme } from "../../../ui-tokens";
 // eslint-disable-next-line no-restricted-imports
 import { ThemeContext } from "styled-components";
 

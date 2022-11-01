@@ -1,6 +1,6 @@
 import { BorderRadius, BorderRadiusMixinProps, getBorderRadiusStyles } from ".";
 
-import { StaticTokenMap } from "lib/ui-tokens";
+import { StaticTokenMap } from "../../../ui-tokens";
 import { shallow } from "enzyme";
 import styled from "styled-components";
 

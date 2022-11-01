@@ -1,7 +1,7 @@
 import { AtRule } from "csstype";
 /* eslint-disable @typescript-eslint/no-require-imports */
 /* eslint-disable @typescript-eslint/no-var-requires */
-import { createGlobalStyle } from "lib";
+import { createGlobalStyle } from "../../utils-styled-components";
 
 /* stylelint-disable */
 
@@ -336,9 +336,9 @@ export function getFontDeclarationString(fontDisplay?: AtRule.FontDisplay) {
     font-style: normal;
     font-weight: 400;
     src: url('${getModuleExport(
-      require("lib/fonts/fonts/web/roobert/Roobert-Regular.woff2"),
+      require("../fonts/web/roobert/Roobert-Regular.woff2"),
     )}') format('woff2'), url('${getModuleExport(
-    require("lib/fonts/fonts/web/roobert/Roobert-Regular.woff"),
+    require("../fonts/web/roobert/Roobert-Regular.woff"),
   )}') format('woff');
   }
   @font-face {
@@ -347,9 +347,9 @@ export function getFontDeclarationString(fontDisplay?: AtRule.FontDisplay) {
     font-style: normal;
     font-weight: 600;
     src: url('${getModuleExport(
-      require("lib/fonts/fonts/web/roobert/Roobert-SemiBold.woff2"),
+      require("../fonts/web/roobert/Roobert-SemiBold.woff2"),
     )}') format('woff2'), url('${getModuleExport(
-    require("lib/fonts/fonts/web/roobert/Roobert-SemiBold.woff"),
+    require("../fonts/web/roobert/Roobert-SemiBold.woff"),
   )}') format('woff');
   }
   @font-face {
@@ -358,9 +358,9 @@ export function getFontDeclarationString(fontDisplay?: AtRule.FontDisplay) {
     font-style: normal;
     font-weight: 700;
     src: url('${getModuleExport(
-      require("lib/fonts/fonts/web/roobert/Roobert-Bold.woff2"),
+      require("../fonts/web/roobert/Roobert-Bold.woff2"),
     )}') format('woff2'), url('${getModuleExport(
-    require("lib/fonts/fonts/web/roobert/Roobert-Bold.woff"),
+    require("../fonts/web/roobert/Roobert-Bold.woff"),
   )}') format('woff');
   `;
 }
