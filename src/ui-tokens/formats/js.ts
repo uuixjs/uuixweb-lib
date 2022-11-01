@@ -1,6 +1,8 @@
 import { Dictionary, Property } from "../types";
-import { render } from "mustache";
+
+import path from "path";
 import { readFileSync } from "fs";
+import { render } from "mustache";
 
 type TokenName = string;
 type TokenValue = string | number;
@@ -204,7 +206,7 @@ export const tsDictionaryCustomFormat = {
   name: "ts/dictionary",
   formatter: ({ allProperties }: Dictionary) => {
     // Get the style-dictionary types
-    const dictionaryTypes = readFileSync("src/types.ts", "utf-8");
+    const dictionaryTypes = readFileSync(path.join(__dirname,"../types.ts"), "utf-8");
 
     return render(tsDicionaryTemplate, {
       dictionaryData: JSON.stringify(allProperties),

@@ -1,4 +1,4 @@
-// @ts-check
+// @ts-nocheck
 import {
   colorUIColorSwiftCustomTransform,
   cssCustomTransformGroup,
@@ -78,3 +78,6 @@ export const buildTokens = () => {
   // Run the build command.
   styleDictionary.buildAllPlatforms();
 };
+
+
+buildTokens();
